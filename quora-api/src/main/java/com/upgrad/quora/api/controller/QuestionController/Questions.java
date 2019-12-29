@@ -1,3 +1,4 @@
+/*
 package com.upgrad.quora.api.controller.QuestionController;
 
 import com.upgrad.quora.api.model.QuestionDeleteResponse;
@@ -46,3 +47,4 @@ public class Questions {
 
 
 }
+*/

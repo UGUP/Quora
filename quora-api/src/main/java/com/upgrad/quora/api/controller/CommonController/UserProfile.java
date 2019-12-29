@@ -1,3 +1,4 @@
+/*
 package com.upgrad.quora.api.controller.CommonController;
 
 
@@ -13,22 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserProfile {
 
 
- @RequestMapping(method= RequestMethod.GET, path="/userprofile/{userId}",produces =MediaType.APPLICATION_JSON_UTF8_VALUE,consumes= MediaType.APPLICATION_JSON_UTF8_VALUE)
-public ResponseEntity<UserDetailsResponse> getUserProfile()
-{
+
+ @RequestMapping(method = RequestMethod.GET, path = "/userprofile/{userId}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+ public ResponseEntity<UserDetailsResponse> getUserProfile() {
 
 
-
-
-
-
-
-}
-
-
-
-
-
+ }
 
 
 }
+*/
