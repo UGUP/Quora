@@ -1,9 +1,8 @@
-/*
-package com.upgrad.quora.api.controller.QuestionController;
 
-import com.upgrad.quora.api.model.QuestionDeleteResponse;
-import com.upgrad.quora.api.model.QuestionDetailsResponse;
-import com.upgrad.quora.api.model.QuestionEditResponse;
+package com.upgrad.quora.api.controller;
+
+import com.upgrad.quora.api.model.QuestionRequest;
+import com.upgrad.quora.api.model.QuestionResponse;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,12 +13,21 @@ import org.springframework.web.bind.annotation.RestController;
 public class Questions {
 
     @RequestMapping(method = RequestMethod.POST, path = "/question/create", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public ResponseEntity<> createQuestion() {
+    public ResponseEntity<QuestionResponse> createQuestion(QuestionRequest questionRequest) {
+
+
+
+
+
 
 
     }
 
 
+
+    }
+
+/*
     @RequestMapping(method = RequestMethod.GET, path = "/question/all", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<QuestionDetailsResponse> getAllQuestions() {
 
