@@ -80,17 +80,18 @@
             <plugin>
                 <groupId>io.swagger</groupId>
                 <artifactId>swagger-codegen-maven-plugin</artifactId>
+
                 <dependencies>
                     <dependency>
                         <groupId>io.swagger</groupId>
                         <artifactId>swagger-annotations</artifactId>
                         <version>1.5.18</version>
                     </dependency>
-
                     <dependency>
                         <groupId>io.swagger</groupId>
                         <artifactId>swagger-codegen-generators</artifactId>
                         <version>1.0.0-rc0</version>
+
                     </dependency>
                 </dependencies>
 
